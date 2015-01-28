@@ -1,0 +1,17 @@
+<h1>NoPu Nguyen</h1>
+<div>
+	<table class="table table-bordered">
+		<thead>
+			<th>STT</th>
+			<th>Name</th>
+			<th>Age</th>
+		</thead>
+		<tbody>
+			<tr ng-repeat="user in users">
+				<td>{{$index + 1}}</td>
+				<td>{{user.name}}</td>
+				<td>{{user.age}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
